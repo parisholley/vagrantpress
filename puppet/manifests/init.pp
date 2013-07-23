@@ -8,3 +8,4 @@ exec { "apt_update":
   class{'php5::install':}  
   class{'mysql::install':}
   class{'wordpress::install':}
+  class{'elasticsearch::install':}
