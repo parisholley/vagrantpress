@@ -1,5 +1,5 @@
 Vagrant::Config.run do |config|
-  config.vm.box = "trusty64"
+  config.vm.box = "precise64"
   config.vm.box_url = "http://cloud-images.ubuntu.com/vagrant/precise/current/precise-server-cloudimg-amd64-vagrant-disk1.box"
 
   config.vm.forward_port 80, 8080
