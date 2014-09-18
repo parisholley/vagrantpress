@@ -19,7 +19,7 @@ class wordpress::install{
 
   
   exec{"git-wordpress": #tee hee
-    command=>"/usr/bin/wget http://wordpress.org/latest.tar.gz",
+    command=>"/usr/bin/wget http://wordpress.org/wordpress-4.0.tar.gz",
     cwd=>"/vagrant/",
     creates=>"/vagrant/latest.tar.gz"
   }
